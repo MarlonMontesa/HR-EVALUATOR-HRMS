@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+}
+
+.dashboard{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.header{
+    display:flex;
+    padding: 2rem 4 rem;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+header>:nth-child(1){
+    font-size: 1.2rem;
+    
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.profile>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.details>:nth-child(1){
+    font-size: large;
+    font-weight: bold;
+}
+
+.content{
+    margin: auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: -4rem;
+}
+
+.content>div{
+    width: 100%;
+    min-width: 75vh;
+}

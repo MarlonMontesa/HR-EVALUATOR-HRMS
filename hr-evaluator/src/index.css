@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(162, 187, 211);
+}
+.dashboard {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--black);
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  overflow: hidden;
+}

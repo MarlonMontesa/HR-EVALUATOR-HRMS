@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    max-width: 130rem;
+    height: 100vh;
+    padding: 0rem 4rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title{
+    color: white;
+    font-size: large;
+    width: auto;
+    
+}
+
+.form{
+    height: 10rem;
+    padding: 1.5rem;
+    background-color: aliceblue;
+    
+}
+label{
+    color: black;
+}
