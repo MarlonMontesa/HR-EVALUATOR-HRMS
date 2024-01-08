@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { GrPerformance } from "react-icons/gr";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
+import Logo from '../../../public/brand.png'
 
 const sidebar = () => {
   const [nav, setNav] = useState(false)
@@ -14,7 +15,7 @@ const sidebar = () => {
 
   return (
     <div className={css.container}>
-        <img src="" alt="logo" className={css.logo}/>
+        <img src={Logo} alt="logo" className={css.logo}/>
 
         <div className={css.menu}>
             
